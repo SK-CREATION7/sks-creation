@@ -34,5 +34,5 @@ function addMessage(text, sender) {
 function botReply(userText) {
     setTimeout(() => {
         addMessage(`Searching best deals for "${userText}"... (AI response simulated)`, 'bot');
-    }, 1000);
+    }, 100);
 }
